@@ -26,7 +26,6 @@ Din sajt ska som minimum ha minst 3 olika sektioner eller sidor med länkar mell
 
 ## Dokumentation
 Att kunna förstå och planera, revidera och utvärdera ett projekt …
-
 - Spelas in som screencast, förslagsvis med din CB
 - Du använder dig av ok svenska och ett gott språk med korrekta facktermer
 - Glöm inte att utvärdera
