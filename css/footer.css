@@ -3,12 +3,12 @@ footer {
     height: auto;
     background-color: var(--sec-bg-color);
     display: grid;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas: 
-        "FAQ contact"
-        "service phone"
-        "follow email"
-        "follow hehe"
-        "follow ."
+        "FAQ        contact"
+        "service    phone"
+        "follow     email"
+        "follow     name"
     ;
 }
 
@@ -36,10 +36,18 @@ footer {
     grid-area: follow;
 }
 
-.hehe {
-    grid-area: hehe;
+.footer-name {
+    grid-area: name;
 }
 
-h2 {
-    margin: 7px 20px;
+
+
+.footer-name a{
+    display: flex;
+    align-items: center;
+}
+
+.footer-name a picture{
+    height: 3rem;
+    margin-right: 10px;
 }
