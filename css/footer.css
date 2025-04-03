@@ -51,12 +51,12 @@ h2 {
     font-size: 1rem;
 }
 
-.footer-name a{
+.footer-name{
     display: flex;
     align-items: center;
 }
 
-.footer-name a picture{
+.footer-name picture{
     height: 3rem;
     margin-right: 10px;
 }
