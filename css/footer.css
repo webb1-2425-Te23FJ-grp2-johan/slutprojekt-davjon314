@@ -1,0 +1,45 @@
+footer {
+    width: 100vw;
+    height: auto;
+    background-color: var(--sec-bg-color);
+    display: grid;
+    grid-template-areas: 
+        "FAQ contact"
+        "service phone"
+        "follow email"
+        "follow hehe"
+        "follow ."
+    ;
+}
+
+.FAQ {
+    grid-area: FAQ;
+}
+
+.contact {
+    grid-area: contact;
+}
+
+.phone {
+    grid-area: phone;
+}
+
+.email {
+    grid-area: email;
+}
+
+.service {
+    grid-area: service;
+}
+
+.follow {
+    grid-area: follow;
+}
+
+.hehe {
+    grid-area: hehe;
+}
+
+h2 {
+    margin: 7px 20px;
+}

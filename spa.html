@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>frögy-hotel-spa</title>
 
+    <link rel="stylesheet" href="css/temp-classes.css">
+    <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/spa.css">
@@ -15,7 +17,7 @@
     <nav>
         <ul id="item-list">
             <li class="nav-item logo">
-                <img src="imgs/froggy-cartoon-isolated-on-white-600w-2316993545.webp" alt="logo for frögy hotel">
+                <img src="imgs/logo.webp" alt="logo for frögy hotel">
             </li>
             
             <li class="nav-item name">
@@ -26,7 +28,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
             </li>
             
-            <li class="nav-item close">
+            <li class="nav-item close hidden">
                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
             </li>
             
@@ -44,7 +46,7 @@
         </ul>
         
         <!-- BURGER CLICK LIST -->
-        <ul id="burger-click-list">
+        <ul id="burger-click-list" class="hidden">
             <li class="burger-home">
                 <a href="index.html">
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg>
@@ -75,7 +77,7 @@
 
         <!-- INFO BOX -->
         <section id="info">
-            <h1>Incredible racing!!!!!!</h1>
+        <h1>The best bath of your life</h1>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed molestias, numquam eveniet accusantium odio porro officia quam aut quos molestiae illum totam officiis maxime aliquid esse debitis. Dolor, quae non! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque magni fugit omnis! Voluptatum illum asperiores, nam optio molestias error eum eveniet neque accusamus? A consequuntur provident consectetur veniam sed atque.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia beatae perferendis, nam nulla quisquam et fuga totam deserunt, asperiores, tempora velit quidem recusandae perspiciatis debitis! Aperiam aspernatur deserunt mollitia eum?</p>
@@ -87,19 +89,25 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam earum culpa, illo debitis, labore reiciendis dolorum repellendus praesentium quisquam aut voluptatibus obcaecati recusandae tempora quidem sunt suscipit neque vel ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, qui est tempora doloremque repellat sunt quibusdam sequi vel voluptatem perspiciatis debitis adipisci accusamus perferendis laborum deleniti quia quod quo esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae non doloremque fugit eum in vitae repudiandae nulla, quod ratione, magnam laborum explicabo dolores recusandae a? Nemo libero odit nisi non.</p>
         </section>
 
-        <!-- MORE PICTURES -->
-        <section id="pictures">
-            <picture>
-                <img src="imgs/bath-4.jpg" alt="frog taking bath">
-            </picture>
+        <!-- MORE PICTURES WITH LIGHTBOX -->
+        <section id="pictures" class="gallery">
+            <a href="imgs/bath-4.jpg">
+                <picture>
+                    <img src="imgs/bath-4.jpg" alt="frog taking bath">
+                </picture>
+            </a>
 
-            <picture>
-                <img src="imgs/bath-5.jpg" alt="frog taking bath">
-            </picture>
-
-            <picture>
-                <img src="imgs/bath-6.png" alt="frog taking bath">
-            </picture>
+            <a href="imgs/bath-5.jpg">
+                <picture>
+                    <img src="imgs/bath-5.jpg" alt="frog taking bath">
+                </picture>
+            </a>
+            
+            <a href="imgs/bath-6.png">    
+                <picture>
+                    <img src="imgs/bath-6.png" alt="frog taking bath">
+                </picture>
+            </a>
         </section>
     </main>
 
@@ -113,6 +121,7 @@
         <h2 class="email">mohaha.burp@frogyhotel.com</h2>
         <h2 class="service">Customer service</h2>
         <h2 class="follow">Follow us on all thinkable and unthinkable platforms!</h2>
+        <h2 class="hehe">hehehehe</h2>
     </footer>
 
 </body>

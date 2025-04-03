@@ -1,0 +1,41 @@
+/* GENERAL */
+ul {
+    list-style: none;
+}
+
+/* .nav-link {
+    display: none;
+} */
+
+/* BOX FIX */
+nav {
+    position: fixed;
+    width: 100vw;
+    height: 4rem;
+    background-color: var(--sec-bg-color);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 4rem;
+}
+
+.name {
+    margin-left: 30px;
+}
+
+.burger, .close {
+    margin-left: auto;
+    margin-right: 4rem;
+}
+
+
+
+/* BECAUSE OF POSITION: FIXED */
+main {
+    margin-top: 4rem;
+}
