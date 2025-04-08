@@ -1,6 +1,7 @@
 :root {
     font-size: 16px;
     --main-bg-color: #43766C;
+    --darker-main-bg-color: #41645d;
     --sec-bg-color: #76453B;
     --body-color: #67948b;
     --text-color: #F8FAE5;
@@ -15,7 +16,7 @@
 img {
     display: block;
     max-height: 100%;
-    max-width: 100%;
+    width: 100%;
 }
 
 body {
@@ -23,6 +24,11 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: var(--body-color);
+}
+
+main {
+    background-color: var(--main-bg-color);
+    padding-bottom: 30px;
 }
 
 h1, h2, h3, p, a {

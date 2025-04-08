@@ -13,6 +13,7 @@ nav {
     width: 100vw;
     height: 4rem;
     background-color: var(--sec-bg-color);
+    z-index: 1000; /*OTHERWISE CAROUSEL WILL BE OVER NAV*/
 }
 
 nav ul {
