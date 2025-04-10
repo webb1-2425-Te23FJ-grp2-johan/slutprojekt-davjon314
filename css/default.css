@@ -1,10 +1,10 @@
 :root {
-    font-size: 16px;
-    --main-bg-color: #43766C;
-    --darker-main-bg-color: #41645d;
-    --sec-bg-color: #76453B;
-    --body-color: #67948b;
-    --text-color: #F8FAE5;
+    font-size: 18px;
+    --main-bg-color: #406777;
+    --darker-main-bg-color: #264653;
+    --sec-bg-color: #264653;
+    --body-color: #2A9D8F;
+    --text-color: #ffffff;
 }
 
 * {
@@ -33,6 +33,10 @@ main {
 
 h1, h2, h3, p, a {
     color: var(--text-color);
+}
+
+h1, h2, h3 {
+    font-family: "Old Standard TT", serif;
 }
 
 a {

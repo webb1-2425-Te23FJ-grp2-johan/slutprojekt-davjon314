@@ -10,6 +10,7 @@ footer {
         "service    phone"
         "follow     email"
         "follow     name"
+        "follow     ."
     ;
     gap: 10px;
 }
