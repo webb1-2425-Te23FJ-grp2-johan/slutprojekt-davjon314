@@ -70,3 +70,27 @@ section {
 .pic picture img {
     border-radius: 10px;
 }
+
+
+
+/*BREAK POINTS*/
+@media screen and (min-width: 900px) {
+    #info {
+        grid-template-areas: 
+            "big-text   big-text"
+            "img        small-text"
+        ;
+        gap: 20px;
+    }
+
+    #pictures {
+        grid-template-areas: 
+            "pic1   pic2"
+            "pic3   pic3"
+        ;
+    }
+
+    .pic1 {
+        margin-right: 30px;
+    }
+}

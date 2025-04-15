@@ -1,9 +1,9 @@
 :root {
     font-size: 18px;
-    --main-bg-color: #406777;
-    --darker-main-bg-color: #264653;
-    --sec-bg-color: #264653;
-    --body-color: #2A9D8F;
+    --main-bg-color: #A0C878;
+    --darker-main-bg-color: #7ca454;
+    --sec-bg-color: #EB5B00;
+    --body-color: #DDEB9D;
     --text-color: #ffffff;
 }
 
@@ -29,6 +29,7 @@ body {
 main {
     background-color: var(--main-bg-color);
     padding-bottom: 30px;
+    max-width: 1200px;
 }
 
 h1, h2, h3, p, a {
@@ -37,6 +38,10 @@ h1, h2, h3, p, a {
 
 h1, h2, h3 {
     font-family: "Old Standard TT", serif;
+}
+
+a, p {
+    font-family: "lato", sans-serif;
 }
 
 a {

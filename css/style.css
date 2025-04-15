@@ -81,3 +81,27 @@ h1 {
     text-align: center;
     margin-bottom: 10px;
 }
+
+
+
+/*BREAK POINTS*/
+@media screen and (min-width: 600px){
+    main {
+        grid-template-areas: 
+            "carousel   carousel"
+            "fantastic  fantastic"
+            "racing     spa"
+            "reviews    reviews"
+        ;
+    }
+}
+
+@media screen and (min-width: 900px){
+    main {
+        grid-template-areas: 
+            "carousel   carousel    carousel    carousel"
+            "fantastic  fantastic   fantastic   reviews"
+            "racing     racing      spa         spa"
+        ;
+    }
+}

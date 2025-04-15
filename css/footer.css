@@ -1,8 +1,12 @@
 footer {
     width: 100vw;
     height: auto;
-    padding: 20px 30px 50px 30px;
     background-color: var(--sec-bg-color);
+}
+
+footer div{
+    max-width: 1200px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-areas: 
@@ -10,7 +14,6 @@ footer {
         "service    phone"
         "follow     email"
         "follow     name"
-        "follow     ."
     ;
     gap: 10px;
 }
@@ -43,8 +46,7 @@ footer {
     grid-area: name;
 }
 
-
-h2 {
+footer h2 {
     font-size: 1.5rem;
 }
 
@@ -55,9 +57,11 @@ h2 {
 .footer-name{
     display: flex;
     align-items: center;
+    justify-content: start;
 }
 
-.footer-name picture{
+.footer-name picture img{
     height: 3rem;
     margin-right: 10px;
+    object-fit: contain;
 }

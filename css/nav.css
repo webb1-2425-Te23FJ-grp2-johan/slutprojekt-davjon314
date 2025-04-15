@@ -3,9 +3,9 @@ ul {
     list-style: none;
 }
 
-/* .nav-link {
+.nav-link {
     display: none;
-} */
+}
 
 /* BOX FIX */
 nav {
@@ -17,6 +17,8 @@ nav {
 }
 
 nav ul {
+    max-width: 1170px;
+    margin: auto;
     display: flex;
     align-items: center;
 }
@@ -34,9 +36,41 @@ nav ul {
     margin-right: 4rem;
 }
 
+.spa {
+    margin-right: 100px;
+}
+
+.racing {
+    margin-right: 50px;
+}
+
+.home {
+    margin-left: auto;
+    margin-right: 50px;
+}
+
 
 
 /* BECAUSE OF POSITION: FIXED */
 main {
     margin-top: 4rem;
+}
+
+
+
+/*BREAK POINT FOR DISABLING BURGER*/
+@media screen and (min-width: 900px) {
+    .burger, .close {
+        display: none;
+    }
+
+    .nav-link {
+        display: inline;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .spa {
+        margin-right: 0;
+    }
 }
