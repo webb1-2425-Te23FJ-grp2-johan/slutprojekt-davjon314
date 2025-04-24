@@ -24,19 +24,33 @@ html, body {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+        "main"
+        "spacer"
+        "footer"
+    ;
+    justify-items: center;
     background-color: var(--body-color);
 }
 
 main {
+    grid-area: main;
     background-color: var(--main-bg-color);
     max-width: 1200px;
 }
 
 .spacer {
-    flex-grow: 1;
+    grid-area: spacer;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    background-color: var(--main-bg-color);
+}
+
+footer {
+    grid-area: footer;
 }
 
 h1, h2, h3, p, a {
@@ -47,7 +61,7 @@ h1, h2, h3 {
     font-family: "Old Standard TT", serif;
 }
 
-a, p {
+a, p, span {
     font-family: "lato", sans-serif;
 }
 

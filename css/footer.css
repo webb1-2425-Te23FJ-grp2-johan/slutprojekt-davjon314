@@ -8,15 +8,18 @@ footer div:not(.footer-name){
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 15% 1fr;
     grid-template-areas: 
-        "FAQ        .   contact"
-        "service    .   phone"
-        "follow     .   email"
-        "follow     .   name"
+        "FAQ"   
+        "service"
+        "contact"
+        "phone"
+        "email"
+        "follow"
+        "name"
     ;
     gap: 20px;
     padding: 50px 30px 100px 50px;
+    text-align: center;
 }
 
 .FAQ {
@@ -45,23 +48,31 @@ footer div:not(.footer-name){
 
 .footer-name {
     grid-area: name;
-}
-
-footer h2 {
-    font-size: 1.5rem;
-}
-
-.email h2, .phone h2 {
-    font-size: 1rem;
-}
-
-.footer-name{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .footer-name picture img{
     height: 3rem;
     margin-right: 10px;
     object-fit: contain;
+}
+
+
+@media screen and (min-width: 600px) {
+    footer div:not(.footer-name){
+        grid-template-columns: 1fr 15% 1fr;
+        grid-template-areas: 
+        "FAQ        .   contact"
+        "service    .   phone"
+        "follow     .   email"
+        "follow     .   name"
+        ;
+        text-align: left;
+    }
+
+    .footer-name {
+        justify-self: start;
+    }
 }

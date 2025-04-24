@@ -15,13 +15,14 @@ button {
 /* BOX FIX */
 nav {
     position: fixed;
+    top: 0;
     width: 100vw;
     height: 4rem;
     background-color: var(--sec-bg-color);
     z-index: 1000; /*OTHERWISE CAROUSEL WILL BE OVER NAV*/
 }
 
-nav ul {
+#item-list {
     max-width: 1200px;
     margin: auto;
     display: flex;
@@ -56,6 +57,27 @@ nav ul {
 
 
 
+/* BURGER LIST */
+#burger-click-list {
+    background-color: var(--sec-bg-color);
+    padding: 20px 0 40px 68px;
+}
+
+#burger-click-list li a {
+    display: flex;
+    align-items: center;
+}
+
+.burger-racing {
+    margin: 20px 0;     /*REGULATES DISTANCE BETWEEN ALL BURGER LIST ITEMS*/
+}
+
+#burger-click-list span {
+    margin-left: 10px;
+}
+
+
+
 /* BECAUSE OF POSITION: FIXED */
 main {
     margin-top: 4rem;
@@ -65,7 +87,7 @@ main {
 
 /*BREAK POINT FOR DISABLING BURGER*/
 @media screen and (min-width: 900px) {
-    .burger, .close {
+    .burger, .close, #burger-click-list {
         display: none;
     }
 
