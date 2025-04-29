@@ -59,6 +59,8 @@ section {
 
 #info picture img{
     border-radius: 10px;
+    height: 350px;
+    object-fit: cover;
 }
 
 /* PICURE BOX */
@@ -68,11 +70,29 @@ section {
 
 .pic picture img {
     border-radius: 10px;
+    object-fit: cover;
 }
 
 
 
 /*BREAK POINTS*/
+@media screen and (min-width:600px) {
+    #pictures {
+        grid-template-areas: 
+        "pic1   pic2"
+        "pic3   pic3"
+        ;
+    }
+
+    .pic1 {
+        margin-right: 30px;
+    }
+
+    .pic3 {
+        height: 470px;
+    }
+}
+
 @media screen and (min-width: 900px) {
     #info {
         grid-template-areas: 
@@ -91,5 +111,9 @@ section {
     .pic1, .pic2 {
         margin-right: 30px;
         margin-bottom: 0;
+    }
+
+    .pic3 {
+        height: auto;
     }
 }
