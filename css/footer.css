@@ -53,7 +53,7 @@ footer div:not(.footer-name){
     justify-content: center;
 }
 
-.footer-name picture img{
+.footer-name img{
     height: 3rem;
     margin-right: 10px;
     object-fit: contain;

@@ -61,8 +61,9 @@ section:not(#carousel) div p {
 h1 {
     position: absolute;
     z-index: 999; /*TO BE BELOW NAV BUT ABOVE REST*/
-    bottom: 50px;
-    left: 70px;
+    bottom: 6%;
+    left: 8%;
+    font-size: 3rem;
 }
 
 #reviews {
@@ -97,6 +98,15 @@ h1 {
             "reviews    reviews"
         ;
     }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    #fantastic img {
+        height: 500px;
+        object-fit: cover;
+    }
 }
 
 @media screen and (min-width: 900px){
@@ -110,5 +120,9 @@ h1 {
 
     #reviews p {
         width: 80%;
+    }
+
+    h1 {
+        font-size: 7rem;
     }
 }
