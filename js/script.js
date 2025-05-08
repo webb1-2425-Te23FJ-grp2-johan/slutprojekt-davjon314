@@ -14,3 +14,8 @@ close.addEventListener("click", function(e){
   close.classList.toggle("hidden");
   list.classList.toggle("hidden");
 });
+
+// // COOKIE BOX
+// document.querySelector(".cookie-box").addEventListener("click", function(e){
+//   document.querySelector(".cookie-box").classList.toggle("hidden");
+// });

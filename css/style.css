@@ -1,3 +1,26 @@
+/* COOKIE BOX
+.cookie-box {
+    position: fixed;
+    z-index: 1001;
+    top: 20%;
+    right: 20%;
+    height: 60%;
+    width: 60%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cookie-box h2 {
+    color: yellowgreen;
+    text-align: center;
+    text-decoration: wavy underline;
+} */
+
+
+
+
 /* GRID */
 main {
     display: grid;
@@ -113,9 +136,9 @@ h1 {
 @media screen and (min-width: 900px){
     main {
         grid-template-areas: 
-            "carousel   carousel    carousel    carousel"
-            "fantastic  fantastic   fantastic   reviews"
-            "racing     racing      spa         spa"
+            "carousel   carousel    carousel    carousel    carousel    carousel"
+            "fantastic  fantastic   fantastic   fantastic   reviews     reviews"
+            "racing     racing      racing      spa         spa         spa"
         ;
     }
 
