@@ -1,26 +1,3 @@
-/* COOKIE BOX
-.cookie-box {
-    position: fixed;
-    z-index: 1001;
-    top: 20%;
-    right: 20%;
-    height: 60%;
-    width: 60%;
-    background-color: pink;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.cookie-box h2 {
-    color: yellowgreen;
-    text-align: center;
-    text-decoration: wavy underline;
-} */
-
-
-
-
 /* GRID */
 main {
     display: grid;

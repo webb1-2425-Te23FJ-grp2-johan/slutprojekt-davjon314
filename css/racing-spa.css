@@ -45,7 +45,7 @@
 
 /* BOX FIX */
 section {
-    margin: 30px; /*MÅSTE VARA DUBBLA JÄMFÖRT M HOME PGA INTE I GRID BETEENDE*/
+    margin: 30px;
     background-color: var(--darker-main-bg-color);
     padding: 35px;
     border-radius: 15px;
