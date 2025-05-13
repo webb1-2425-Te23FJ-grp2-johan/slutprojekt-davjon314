@@ -1,9 +1,9 @@
 :root {
     font-size: 18px;
-    --main-bg-color: #A0C878;
-    --darker-main-bg-color: #7ca454;
-    --sec-bg-color: #EB5B00;
-    --body-color: #DDEB9D;
+    --main-bg-color: #589287;
+    --darker-main-bg-color: #43766C;
+    --sec-bg-color: #76453B;
+    --body-color: #B19470;
     --text-color: #ffffff;
 }
 
@@ -19,9 +19,9 @@ img {
     width: 100%;
 }
 
-html, body {
+/* html, body {
     height: 100%;
-}
+} */
 
 body {
     display: grid;

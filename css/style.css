@@ -42,7 +42,7 @@ section:not(#carousel) {
 }
 
 #carousel {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 section:not(#carousel) img {
